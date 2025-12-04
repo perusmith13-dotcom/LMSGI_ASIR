@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="insertar_cv.html" method="get">
+<fieldset>
+    <legend>Rellenar</legend>
+    <select name="sexo_menu" id="">
+        <option value="hombre">hombre</option>
+        <option value="mujer">mujer</option>
+    </select>
+    <br><br>
+
+    <label>Elija un color</label>
+    <input type="color">
+    <br><br>
+
+<label>elija una fecha</label>
+<input type="date">
+<br><br>
+
+<input type="radio" name="lenguaje" value="java">Java
+<input type="radio" name="lenguaje" value="python">Python
+<input type="radio" name="lenguaje" value="html">HTML
+<input type="radio" name="lenguaje" value="vb">Visual Basic
+<input type="radio" name="lenguaje" value="css">CSS
+<br><br>
+
+<input type="checkbox" name="genero" value="hombre"> hombre
+ <input type="checkbox" name="genero" value="mujer" > mujer
+ <br><br>
+
+ <label>Elija un fichero</label>
+ <input type="file">
+ <br>
+
+ <textarea rows="4" cols="50" placeholder="Por favor, escriba aquí"></textarea>
+ <br>
+
+ <label>Instituto</label>
+ <input type="text">
+ <br>
+
+ <label>Estudios elegidos</label>
+ <input type="text">
+ <br>
+
+ <label>Nombre</label>
+ <input type="text">
+ <br>
+
+ <label>Apellidos</label>
+ <input type="text">
+ <br>
+ <label>Email</label>
+ <input type="text">
+</fieldset>
+
+
+
+<fieldset>
+    <legend>Rellene las opciones siguientes</legend>
+
+    <input type="checkbox" name="os" value="windows"> Windows
+    <input type="checkbox" name="os" value="mac"> mac
+    <input type="checkbox" name="os" value="linux"> linux
+    <br>
+
+    <label>Elija una hora:</label>
+    <input type="time">
+    <br>
+
+<input type="radio" name="cpu" value="amd">AMD
+<input type="radio" name="cpu" value="i5">Intel i5
+<input type="radio" name="cpu" value="i7">Intel i7
+<br>
+
+<label>Elija un fichero</label>
+<input type="file">
+</fieldset>
+
+<br><br>
+
+<input type="submit" value="Enviar Formulario">
+<input type="reset" value="Borrar los datos introducidos">
+</form>    
+</body>
+</html>
